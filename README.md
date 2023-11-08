@@ -10,3 +10,13 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+
+To prove that two graphs can not be isomorphic if they do not share the 
+the same amount of nodes, we need to first talk about what it means to be bijective.
+Bijection means that something is one to one, and onto. Onto means that if you 
+have two graphs $A$ and $B$, then every node in $A$ can be mapped to $B$. 
+One-to-one is similar but in reverse, so every node in $B$ has been mapped
+to by a node in $A$. Since this is the case if the nodes in two graphs are not 
+the same, then it either cannot be one-to-one or onto. This means that if two 
+graphs $A$ and $B$ do not have the same number of nodes, they cannot be isomorphic.
