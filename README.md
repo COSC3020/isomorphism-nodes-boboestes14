@@ -23,6 +23,3 @@ case and we know one of the graphs will have at least one more node than the oth
 we then know that we can't map all the nodes in one graph to the other without 
 a node that wasn't able to be mapped to its own node. Therefore two graphs cant be 
 isomorphic if they do not share the same amount of nodes.
-
-
-Don't understand "Since this is the case if the nodes in two graphs are not the same" -- the definition of isomorphism doesn't require the nodes to be the same.
